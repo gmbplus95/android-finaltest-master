@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nguyentien.hai.ecomerce.activity.MobileDetailActivity"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:background="#766ab7"
+        app:titleTextColor="#ffffff"
+        app:title="Chi tiết sản phẩm"
+        android:id="@+id/toolbarchitietsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgChitiet"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#f00"
+                android:id="@+id/tenChitiet"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="30sp"
+                android:text="Ten sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#bcb6b6"
+                android:id="@+id/giachitiet"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:text="Giá: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_marginTop="20px"
+                android:textAlignment="center"
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/muahang"
+                android:backgroundTint="#ea9554"
+                android:text="Giỏ hàng"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#00e6ff"
+            android:textSize="20sp"
+            android:text="Mô tả sản phẩm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/chitietmotasp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nguyentien.hai.ecomerce.activity.InfoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarInfo"
+        android:title="Thông tin phần mềm"
+        android:background="#7c65da"
+        android:titleTextColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version: 1.0.0.0"
+        android:textSize="20dp"
+        android:textColor="#0015ff"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giảng viên hướng dẫn:"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Thanh Bản"
+        android:textSize="20dp"
+        android:textColor="#0015ff"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SInh viên thực hiện: "
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Tiến Hải"
+        android:textSize="20dp"
+        android:textColor="#0015ff"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn Bắc"
+        android:textSize="20dp"
+        android:textColor="#0015ff"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Đức Huy"
+        android:textSize="20dp"
+        android:textColor="#0015ff"
+        android:textAlignment="center"
+        />
+</LinearLayout>

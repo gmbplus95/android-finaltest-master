@@ -1,0 +1,12 @@
+<resources>
+    <string name="google_maps_key">AIzaSyBc0d-wjLUtAqhORTiK0VFKBYmgGKpWWHs</string>
+    <string name="app_name">Nuce Shop</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="arrType">
+        <item>MAP_TYPE_NORMAL</item>
+        <item>MAP_TYPE_SATELLITE</item>
+        <item>MAP_TYPE_TERRAIN</item>
+        <item>MAP_TYPE_HIBRID</item>
+        <item>MAP_TYPE_NONE</item>
+    </string-array>
+</resources>
